@@ -14,9 +14,11 @@ import java.util.Map;
 class CombinationsRewardCounterTest {
     CombinationsRewardCounter counter;
 
+    Config config;
+
     @BeforeEach
     void setUp() throws Exception {
-        var config = ConfigTestUtils.getConfig();
+        config = ConfigTestUtils.getConfig();
         counter = new CombinationsRewardCounter(config);
     }
 

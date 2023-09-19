@@ -2,6 +2,7 @@ package org.scratch.game.model.output;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.Objects;
  * @param appliedWinningCombinations applied winning combinations if any
  * @param bonusSymbol applied bonus symbol if applicable
  */
+@JsonPropertyOrder({"matrix", "reward", "appliedWinningCombinations", "bonusSymbol"})
 public record Result(
         String[][] matrix,
         double reward,
