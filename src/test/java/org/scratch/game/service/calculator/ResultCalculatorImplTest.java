@@ -2,7 +2,6 @@ package org.scratch.game.service.calculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.scratch.game.model.config.Config;
 import util.ConfigTestUtils;
 
 class ResultCalculatorImplTest {

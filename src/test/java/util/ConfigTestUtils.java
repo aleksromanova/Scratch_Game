@@ -3,8 +3,6 @@ package util;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.scratch.game.model.config.Config;
 
-import java.io.File;
-
 public class ConfigTestUtils {
 
     public static Config getConfig() throws Exception {
