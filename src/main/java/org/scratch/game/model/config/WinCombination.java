@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public record WinCombination(
         @JsonProperty("reward_multiplier")
-        int rewardMultiplier,
+        double rewardMultiplier,
         WinCombinationWhenType when,
         int count,
         WinCombinationGroup group,
