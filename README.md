@@ -295,10 +295,15 @@ This applications implements scratch game with following configuration:
 - Maven
 
 ## Execution ##
-To run build it with maven end execute: 
+- Build application with Maven:
+```bash
+mvn package
+```
+- Run the jar: 
 ```bash
  java -jar Scratch_Game-1.0.jar --config <config file path> --betting-amount <bet amount>
 ```
+
 | parameter      | description                                        |
 |----------------|----------------------------------------------------|
 | config         | config file which is described top of the document |
